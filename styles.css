@@ -1,37 +1,57 @@
 html {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 body {
-    margin: 0;
-    background-image: url("LOLOL.png");
-    color: red;
+  margin: 0;
+  background-image: url("bg.png");
+  color: white;
 }
 
 .header {
-    background-color: black;
-    padding: 0.25rem;
-    display:flex;
-    justify-content: space-between;
+  background-color: black;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 44px;
 }
 
 .header a {
-    color: white;
-    text-decoration:none
+  color: white;
+  text-decoration: none;
 }
 
 article {
-    padding: 00.25rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  font-size: 1.6cm;
 }
 
-.header, article {
-    text-align: center;
+.Phrase {
+  padding: 0.25rem;
+  text-align: center;
+  font-size: 34px;
+}
+
+a {
+  color: white;
+}
+
+#NavBar a {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.header,
+article {
+  text-align: center;
 }
 
 em {
-    text-align: left;
+  text-align: left;
 }
 
 #copyright {
-    color: black;
+  color: black;
 }

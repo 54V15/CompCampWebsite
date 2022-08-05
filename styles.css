@@ -75,11 +75,8 @@ a:active {
   font-size: 44px;
 }
 
-table,
-th,
-td {
-  border: 0cm solid black;
-  background-color: black;
+.center {
+  border: 2cm solid black;
 }
 
 table {
@@ -93,4 +90,22 @@ table {
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   border-collapse: collapse;
   font-size: 1.7cm;
+}
+
+.fps {
+  text-align: center;
+  font-size: 44px;
+}
+
+.games {
+  border: 2cm solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-collapse: collapse;
+  font-size: 1.7cm;
+}
+
+.txtover {
+  position:relative 
 }

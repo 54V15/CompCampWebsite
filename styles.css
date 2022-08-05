@@ -109,3 +109,17 @@ table {
 .txtover {
   position:relative 
 }
+
+.system {
+  text-align: center;
+  font-size: 44px;
+}
+
+.console {
+  border: 2cm solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-collapse: collapse;
+  font-size: 1.7cm;
+}

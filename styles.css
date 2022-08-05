@@ -54,25 +54,43 @@ em {
 
 #copyright {
   color: black;
+  text-align: left;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: underline; }
-a:active { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: none;
+}
 
 .Genre {
-    text-align: center;
-    font-size: 44px;
+  text-align: center;
+  font-size: 44px;
 }
 
-table, th, td {
-    border: 1cm solid black;
+table,
+th,
+td {
+  border: 0cm solid black;
+  background-color: black;
+}
+
+table {
+  height: 22cm;
+  width: 90cm;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-    border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-collapse: collapse;
+  font-size: 1.7cm;
 }
